@@ -1,0 +1,74 @@
+/**
+* @name OldDiscord
+* @author Zeaxey#2047
+* @version 1
+* @invite vUN9sNW
+* @description A theme that brings back the old Discord look from 2018.
+*/
+
+container-YkUktl>.flex-2S1XBF>button {
+    transform: scale(0.8)
+}
+.item-3XjbnG.selected-g-kMVV {
+  background: #7289da !important;
+}
+.container-YkUktl button[aria-label="Deafen"] path,
+.container-YkUktl button[aria-label="Mute"] path,
+.container-YkUktl button[aria-label="User Settings"] path {
+  display: none
+}
+
+.container-YkUktl button[aria-label="User Settings"]::before {
+  content: "";
+  background: url("https://i.imgur.com/cwaJYCE.png") no-repeat center;
+  width: 20px;
+  background-size: 30px;
+  height: 20px;
+  position: absolute;
+}
+
+.container-YkUktl button[aria-label="Deafen"][aria-checked="true"]::before {
+  content: "";
+  background: url("https://i.imgur.com/BMRdM3d.png") no-repeat center;
+  width: 20px;
+  background-size: 30px;
+  height: 20px;
+  position: absolute;
+}
+
+.container-YkUktl button[aria-label="Deafen"]::before {
+  content: "";
+  background: url("https://i.imgur.com/tMZhAmo.png") no-repeat center;
+  width: 20px;
+  background-size: 30px;
+  height: 20px;
+  position: absolute;
+}
+
+.container-YkUktl button[aria-label="Mute"][aria-checked="true"]::before {
+  content: "";
+  background: url("https://i.imgur.com/TYVMuFw.png") no-repeat center;
+  width: 20px;
+  background-size: 30px;
+  height: 20px;
+  position: absolute;
+}
+
+.container-YkUktl button[aria-label="Mute"]::before {
+  content: "";
+  background: url("https://i.imgur.com/QsugExi.png") no-repeat center;
+  width: 20px;
+  background-size: 30px;
+  height: 20px;
+  position: absolute;
+}
+/** Square ping icons */
+.numberBadge-37OJ3S {
+    background-clip: padding-box;
+    border-radius: 3px;
+    line-height: 12px;
+    height: unset !important;
+    padding: 3px 4px !important;
+    min-width: 18px !important;
+    width: auto !important;
+}
