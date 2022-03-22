@@ -22,5 +22,5 @@ Code:
 
 After you've done the steps, install the OnlineMemberCount plugin from BetterDiscord.
 Then, you're done. Enjoy.
-# Discuntinuation Note
-This is discontinued. This will be deleted after 3 days.
+# Discontinuation cancelled
+See issues for information
